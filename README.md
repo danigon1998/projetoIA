@@ -1,6 +1,6 @@
 # Agente de IA para Agendar Reuniões e Responder FAQs
 
-Este projeto é um agente de IA desenvolvido para responder perguntas frequentes (FAQs), fornecer tutoriais sobre ferramentas internas da empresa e agendar reuniões de boas-vindas através da integração com o Google Calendar.
+Este projeto é um agente de IA desenvolvido para responder perguntas frequentes (FAQs), fornecer tutoriais sobre ferramentas internas da empresa e agendar reuniões de boas-vindas através da integração com o Google Calendar. O programa funciona diretamente no terminal, então para rodar ele é tão simples como rodar o arquivo chatbot.py
 
 ## Tecnologias Utilizadas
 
@@ -31,5 +31,5 @@ Utilize pip install -r requirements.txt
 
 Em relação com os dados, eles se encontram na pasta chromaData, então não vai ser necessario entrar em PostgreSQL, que é o lugar onde eles estavam originalmente, salvo que de um erro ou seja apagado o que esta nessa pasta mencionada anteriormente.
 
-Caso isso aconteça, voçê tera que restaurar em postgreSQL o arquivo de backup e trocar os dados que estão no arquivo .env em relação com o nome e senha para o seu respectivo caso
+Caso isso aconteça, voçê tera que restaurar em postgreSQL o arquivo de backup e trocar os dados que estão no arquivo .env em relação com o nome e senha para o seu respectivo caso.
 
